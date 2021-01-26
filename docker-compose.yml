@@ -17,8 +17,8 @@ services:
       postgres_pass: let-me-in
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
-      ethereum: 'arbitrum:https://kovan2-3.arbitrum.io/rpc'
-      GRAPH_LOG: debug
+      ethereum: 'arbitrum:https://kovan3.arbitrum.io/rpc'
+      GRAPH_LOG: info
       RUST_LOG: info
   ipfs:
     image: ipfs/go-ipfs:v0.4.23

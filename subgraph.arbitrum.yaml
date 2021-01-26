@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: arbitrum
     source:
-      address: "0x47601654c997eA5DF37eD061bcebf8581F9d86ED"
+      address: "0xCAAd408788C192979384768DD5bE04eC1b3787dA"
       abi: Factory
-      startBlock: 22519257
+      startBlock: 22997129
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
